@@ -24,25 +24,25 @@ You can find Docker Desktop installation instructions [here](https://docs.docker
 
 To run the project, follow these steps:
 1. Сreate a .env file in the docker directory with the following content:
-```
+```env
 MYSQL_ROOT_PASSWORD=root_password
 MYSQL_USER=username
 MYSQL_PASSWORD=user_password
 MYSQL_DATABASE=my_database
 ```
 2. Navigate to the directory `docker/`:
-```
+```bash
 cd docker
 ```
 3. Start the containers in detached mode:
-```
+```bash
 docker compose up -d
 ```
 
 ## Stopping the Project
 
 To stop the project, run the following command: 
-```
+```bash
 docker compose down
 ```
 
