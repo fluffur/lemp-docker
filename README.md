@@ -23,7 +23,7 @@ You can find Docker Desktop installation instructions [here](https://docs.docker
 ## Running the Project
 
 To run the project, follow these steps:
-1. Сreate a .env file in the docker directory with the following content:
+1. Сreate a .env file in the root directory with the following content:
 ```env
 MYSQL_ROOT_PASSWORD=root_password
 MYSQL_USER=username
